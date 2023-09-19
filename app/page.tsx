@@ -7,17 +7,18 @@ export default function Home() {
       <div className="text-4xl">Using generative AI</div>
       <div className="xs:flex-col lg:flex justify-center gap-4 font-black">
         <Image
-          src="/ezty.png"
-          width={300}
-          height={300}
-          alt="Picture of the author"
-        />
-        <Image
           src="/eztia01.png"
           width={300}
           height={300}
           alt="Picture of the author"
         />
+        <Image
+          src="/ezty.png"
+          width={300}
+          height={300}
+          alt="Picture of the author"
+        />
+
         <Image
           src="/eztia02.png"
           width={300}
