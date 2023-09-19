@@ -3,7 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-8">
-      <div className="text-4xl">From sketch to art, using generative AI</div>
+      <div className="text-4xl">From sketch to art</div>
+      <div className="text-4xl">Using generative AI</div>
       <div className="xs:flex-col lg:flex justify-center gap-4 font-black">
         <Image
           src="/ezty.png"
